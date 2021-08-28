@@ -1,0 +1,25 @@
+.app__ImageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 83%;
+}
+
+.post__caption {
+  padding: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.app__ImageUpload input {
+  width: 100%;
+}
+
+.upload__btn {
+  width: fit-content;
+  margin: 10px 0px !important;
+}
+
+.post__file {
+  display: flex;
+  margin-top: 5px;
+}

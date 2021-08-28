@@ -1,13 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+ul {
+  list-style: none;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* instragram colne css in the below */
+
+.app {
+  background-color: #fafafa;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  padding: 20px;
+}
+
+.app__headerMain {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+div#modal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.app__singup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__login {
+  display: flex;
+}
+
+.app__create {
+  border-radius: 100% !important;
+  min-width: 40px !important;
+  min-height: 37px;
+  padding: 0px !important;
+  margin-right: 10px !important;
+  border: none !important;
+}
+
+div#open__uploads {
+  position: absolute;
+  right: -38px;
+  top: 84px;
+}
+
+.close__upload {
+  display: none;
+}
+
+.open__upload {
+  display: block;
 }
